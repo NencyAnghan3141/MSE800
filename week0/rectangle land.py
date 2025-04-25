@@ -1,8 +1,8 @@
 def square(x):
     return x * x
 
-length = float(input("Enter the length of the land (can be negative or decimal): "))
-width = float(input("Enter the width of the land (can be negative or decimal): "))
+length = float(input("Enter the length of the land"))
+width = float(input("Enter the width of the land"))
 
 length = abs(length)
 width = abs(width)
